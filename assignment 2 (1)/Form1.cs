@@ -32,5 +32,21 @@ namespace assignment_2__1_
                 MessageBox.Show("Wrong");
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double n1 = double.Parse(textBox4.Text);
+                double n2 = double.Parse(textBox5.Text);
+                double n3 = double.Parse(textBox6.Text);
+                double frac = 1.0 / (1.0 / n1 + 1.0 / n2 + 1.0 / n3);
+                label2.Text = frac.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Wrong");
+            }
+        }
     }
 }
