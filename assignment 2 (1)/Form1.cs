@@ -130,5 +130,23 @@ namespace assignment_2__1_
                 MessageBox.Show("Wrong");
             }
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double res1 = double.Parse(textBox24.Text);
+                double res2 = double.Parse(textBox25.Text);
+                double res3 = double.Parse(textBox26.Text);
+                double res4 = double.Parse(textBox27.Text);
+                double res5 = double.Parse(textBox28.Text);
+                double ans = +res1 + res2 + res3 + res4 + res5;
+                label8.Text = ans.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Wrong");
+            }
+        }
     }
 }
