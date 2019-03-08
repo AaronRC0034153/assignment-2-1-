@@ -97,5 +97,38 @@ namespace assignment_2__1_
                 MessageBox.Show("Wrong");
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double n1 = double.Parse(textBox18.Text);
+                double n2 = double.Parse(textBox17.Text);
+                double frac = 1.0 / (1.0 / n1 + 1.0 / n2);
+                label6.Text = frac.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Wrong");
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double n1 = double.Parse(textBox19.Text);
+                double n2 = double.Parse(textBox20.Text);
+                double n3 = double.Parse(textBox21.Text);
+                double n4 = double.Parse(textBox22.Text);
+                double n5 = double.Parse(textBox23.Text);
+                double frac = 1.0 / (1.0 / n1 + 1.0 / n2 + 1.0 / n3 + 1.0 / n4 + 1.0 / n5);
+                label7.Text = frac.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Wrong");
+            }
+        }
     }
 }
