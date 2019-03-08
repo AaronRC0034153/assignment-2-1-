@@ -48,5 +48,54 @@ namespace assignment_2__1_
                 MessageBox.Show("Wrong");
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double n1 = double.Parse(textBox7.Text);
+                double n2 = double.Parse(textBox8.Text);
+                double n3 = double.Parse(textBox9.Text);
+                double n4 = double.Parse(textBox10.Text);
+                double frac = 1.0 / (1.0 / n1 + 1.0 / n2 + 1.0 / n3 + 1.0 / n4);
+                label3.Text = frac.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Wrong");
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double res1 = double.Parse(textBox11.Text);
+                double res2 = double.Parse(textBox12.Text);
+                double ans = +res1 + res2;
+                label4.Text = ans.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Wrong");
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double res1 = double.Parse(textBox13.Text);
+                double res2 = double.Parse(textBox14.Text);
+                double res3 = double.Parse(textBox15.Text);
+                double res4 = double.Parse(textBox16.Text);
+                double ans = +res1 + res2 + res3 + res4;
+                label5.Text = ans.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Wrong");
+            }
+        }
     }
 }
