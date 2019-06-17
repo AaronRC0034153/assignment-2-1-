@@ -19,6 +19,7 @@ namespace assignment_2__1_
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // calculates the total resistance for 3 resistors in series
             try
             {
                 double res1 = double.Parse(textBox1.Text);
@@ -35,6 +36,7 @@ namespace assignment_2__1_
 
         private void button2_Click(object sender, EventArgs e)
         {
+            // calculates the resistence for 3 resistoes in parallel
             try
             {
                 double n1 = double.Parse(textBox4.Text);
@@ -51,6 +53,7 @@ namespace assignment_2__1_
 
         private void button3_Click(object sender, EventArgs e)
         {
+            // calculates the resistence for 4 resistoes in parallel
             try
             {
                 double n1 = double.Parse(textBox7.Text);
@@ -68,6 +71,7 @@ namespace assignment_2__1_
 
         private void button4_Click(object sender, EventArgs e)
         {
+            // calculates the resistence for 2 resistoes in series
             try
             {
                 double res1 = double.Parse(textBox11.Text);
@@ -83,6 +87,7 @@ namespace assignment_2__1_
 
         private void button5_Click(object sender, EventArgs e)
         {
+            // calculates the resistence for 4 resistoes in series
             try
             {
                 double res1 = double.Parse(textBox13.Text);
@@ -100,6 +105,7 @@ namespace assignment_2__1_
 
         private void button6_Click(object sender, EventArgs e)
         {
+            // calculates the resistence for 2 resistoes in parallel
             try
             {
                 double n1 = double.Parse(textBox18.Text);
@@ -115,6 +121,7 @@ namespace assignment_2__1_
 
         private void button7_Click(object sender, EventArgs e)
         {
+            // calculates the resistence for 5 resistoes in parallel
             try
             {
                 double n1 = double.Parse(textBox19.Text);
@@ -133,6 +140,7 @@ namespace assignment_2__1_
 
         private void button8_Click(object sender, EventArgs e)
         {
+            // calculates the resistence for 5 resistoes in series
             try
             {
                 double res1 = double.Parse(textBox24.Text);
